@@ -8,4 +8,10 @@
         如上，执行该命令后，E:\temps目录下的全部TS文件就被合并成一个new.ts文件了（你原来的那堆文件仍然存在）。  
 * 全局安装webpack及一些配置(这里需要到网上找一些文章)  
 * 将合并好的ts文件  使用命令： tsc new.ts 转化为js文件  
-* 将生成的new.js文件 npm run dev(未压缩)  npm run build(已压缩) 并混淆 webpack -p  
+* 将生成的new.js文件
+    > 
+        npm run dev(未压缩)
+    >
+        npm run build(已压缩)
+    >
+        混淆 webpack -p  
