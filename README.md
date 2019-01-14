@@ -16,7 +16,7 @@
         npm install webpack-dev-server --save-dev
     >
         npm install webpack --save-dev
-* 将合并好的ts文件  使用命令： tsc new.ts 转化为js文件  
+* 将合并好的ts文件  使用命令：npm install -g typescript 然后输入命令：  tsc new.ts 转化为js文件  
     >  webpack打包ts不报错方法，安装ts-loader
         npm i ts-loader@3.X --save-dev
 * 将生成的new.js文件
